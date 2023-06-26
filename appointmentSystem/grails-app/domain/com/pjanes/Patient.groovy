@@ -16,9 +16,9 @@ class Patient {
         patientAddress(size: 1..100)
         patientResidence(size: 1..100)
         patientDob()
-        patientID(unique: true, size 5..10)
+        patientID(size 5..10)
         dateRegistered()
         patientPhone(size 7..15)
-        
+
     }
 }
