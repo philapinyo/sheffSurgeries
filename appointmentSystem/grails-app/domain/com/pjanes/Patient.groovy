@@ -19,5 +19,6 @@ class Patient {
         patientID(unique: true, size 5..10)
         dateRegistered()
         patientPhone(size 7..15)
+        
     }
 }
