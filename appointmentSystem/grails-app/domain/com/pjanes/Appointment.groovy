@@ -19,4 +19,6 @@ class Appointment {
         appDuration(size 1..100)
         roomNumber(size 1..100)
     }
+
+    static belongsTo = [surgery: Surgery, doctor: Doctor, nurses: Nurse, patients: Patient]
 }

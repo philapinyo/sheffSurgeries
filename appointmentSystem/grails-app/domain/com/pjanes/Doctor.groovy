@@ -11,6 +11,12 @@ class Doctor {
     String doctorPhone
     String bio
 
+    String toString()
+    {
+
+        return doctorName + qualification + position
+    }
+
     static constraints = {
 
         doctorName(size 1..100)
@@ -22,4 +28,7 @@ class Doctor {
         doctorPhone(size 1..100)
         bio(size 1..1000)
     }
+
+    static hasMany = [prescriptions: Prescription, appointments: Appointment]
+    static belongsTo = [surgery: Surgery]
 }

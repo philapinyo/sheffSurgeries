@@ -17,4 +17,6 @@ class Receptionist {
         recepPhone(size 1..100)
 
     }
+
+    static belongsTo = [surgery: Surgery]
 }

@@ -18,4 +18,6 @@ class Prescription {
         patientPaying()
         
     }
+
+    static belongsTo = [doctor: Doctor, patient: Patient]
 }

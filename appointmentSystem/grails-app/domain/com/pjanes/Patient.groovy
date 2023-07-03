@@ -21,4 +21,7 @@ class Patient {
         patientPhone(size 7..15)
 
     }
+
+    static hasMany = [appointments: Appointment, prescriptions: Prescription]
+    static belongsTo = [surgery: Surgery]
 }

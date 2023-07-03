@@ -23,4 +23,6 @@ class Surgery {
         registeringNewPatients()
 
     }
+
+    static hasMany = [doctors: Doctor, nurses: Nurse, receptionists: Receptionists, patients: Patient, appointments: Appointment]
 }

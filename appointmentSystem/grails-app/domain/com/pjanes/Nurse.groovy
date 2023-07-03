@@ -8,6 +8,13 @@ class Nurse {
     String nurseOffice
     String nursePhone
 
+    String toString()
+    {
+
+        return nurseName
+
+    }
+
     static constraints = {
 
         nurseName(size 1..100)
@@ -17,4 +24,7 @@ class Nurse {
         nursePhone(size 1..100)
         
     }
+
+    static hasMany = [appointments: Appointment]
+    static belongsTo = [surgery: Surgery]
 }
