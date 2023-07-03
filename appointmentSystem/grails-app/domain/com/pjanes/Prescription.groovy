@@ -7,7 +7,7 @@ class Prescription {
     int daysSupply
     String totalCost
     Date dateIssued
-    Bool patientPaying
+    Boolean patientPaying
 
     static constraints = {
 

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Welcome to Sheffield Surgery</title>
 </head>
 <body>
 <content tag="nav">
@@ -52,13 +52,17 @@
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Welcome to Sheffield Surgery</h1>
 
             <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
+                Lorem ipsum dolor sit amet, an eum ferri ornatus,
+                ad pro graece accusam, usu libris inimicus facilisis in.
+                Omnesque reformidans an eos, nam et brute urbanitas.
+                Duo id esse inani, et latine maiestatis vim,
+                ei libris consulatu vel. Zril timeam interesset quo ad,
+                per tantas gubergren ex, te utinam numquam eos.
+                Mel et possit ornatus, eu sit omnis clita.
+                Sed iudicabit delicatissimi ei, ius ea tation oporteat theophrastus.
             </p>
 
             <div id="controllers" role="navigation">

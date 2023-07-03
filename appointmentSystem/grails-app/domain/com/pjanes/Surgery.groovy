@@ -9,7 +9,7 @@ class Surgery {
     int numberOfPatients
     String description
     String openingTime
-    Bool registeringNewPatients
+    boolean registeringNewPatients
 
     static constraints = {
 
