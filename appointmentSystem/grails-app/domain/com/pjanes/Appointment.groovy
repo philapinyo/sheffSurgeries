@@ -6,6 +6,13 @@ class Appointment {
     int appDuration
     String roomNumber
 
+    String toString()
+    {
+
+        return appDateTime + " at " + roomNumber
+
+    }
+
     static constraints = {
 
         appDateTime()
