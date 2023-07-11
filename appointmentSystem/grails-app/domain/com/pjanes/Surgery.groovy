@@ -24,5 +24,5 @@ class Surgery {
 
     }
 
-    static hasMany = [doctors: Doctor, nurses: Nurse, receptionists: Receptionists, patients: Patient, appointments: Appointment]
+    static hasMany = [doctors: Doctor, nurses: Nurse, receptionists: Receptionist, patients: Patient, appointments: Appointment]
 }
